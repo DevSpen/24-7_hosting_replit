@@ -69,8 +69,8 @@ monitor.on('error', (error) => console.log(error));
 > 💡 **Tip:** If you already have code in your `index.js` file, just put this code at the bottom of the code, or where ever you feel it looks best.
 
 ### server.js
-1. Create a file called `server.js`:
-![](https://user-images.githubusercontent.com/69215413/146991492-2b9714dc-23d7-4d98-a932-57283a91b9cd.png)
+1. Create a file called `server.js`:\
+![](https://user-images.githubusercontent.com/69215413/146991492-2b9714dc-23d7-4d98-a932-57283a91b9cd.png)\
 ![](https://user-images.githubusercontent.com/69215413/146991520-d795f4d9-21ab-4014-a685-5007fb44d96d.png)
 
 2. Paste-in this code:
@@ -92,7 +92,7 @@ module.exports = () => {
 > 💡 **Tip:** See where I put 4000, it is recommended you change that if you are using multiple repls. For example, you can do 1000, 2000, 3000, or whatever else. This is just a port.
 
 ### Run It
-Click the 'Run' button:
+Click the 'Run' button:\
 ![](https://user-images.githubusercontent.com/69215413/146987397-637e9f1a-2987-459b-86ef-bc651ca525be.png)
 
 ### UptimeRobot
