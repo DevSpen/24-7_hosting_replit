@@ -100,7 +100,7 @@ We will be using [UptimeRobot](https://uptimerobot.com/) as the monitoring syste
 
 1. Copy the URL of the website that shows when you run the repl. If you are on mobile, this will be on the "Output" tab; on Desktop, you'll see it in the upper right corner of your screen:
 ![](https://user-images.githubusercontent.com/69215413/146987775-56f77514-c7c1-4a67-8d81-7de17200d99b.png)
-2. Go to https://uptimerobot.com and create a new account:\
+2. Go to [uptimerobot.com](https://uptimerobot.com/) and create a new account:\
 ![](https://user-images.githubusercontent.com/69215413/146987913-f3fdd1b7-c2e0-4f2b-8bf0-246310c11209.png)\
 ![](https://user-images.githubusercontent.com/69215413/146988111-d8c10c44-5ea7-4926-a404-024a9ae88bee.png)\
 *Don't forget to check your email!*
