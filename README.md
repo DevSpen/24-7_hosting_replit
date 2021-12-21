@@ -1,20 +1,32 @@
 # 24/7 Free Hosting with Repl.it
 How do I get free 24/7 hosting with replit? Here's how.
 
-> :warning: **Warning:** This only works for `Node.JS` or `HTML, CSS, JS` repls.
+*If this repository helps you in any way, give it a* :star:\:\
+![](https://user-images.githubusercontent.com/69215413/146993173-a8bede48-c001-4028-bf77-626113d599a6.png)
 
-## Creating a Replit
+> :warning: **Warning:** This only works for `Node.JS` or `HTML, CSS, JS` repls.
+## Index
+- [Creating a Repl](#creating-a-repl)
+- [Hosting](#hosting)
+    - [Install Packages](#install-packages)
+    - [index.js](#indexjs)
+    - [server.js](#serverjs)
+    - [Run It](#run-it)
+    - [UptimeRobot](#uptimerobot)
+    - [Profit](#profit)
+
+## Creating a Repl
 Assuming you've already [created a replit account](https://replit.com/signup), let's make a repl:
 > 💡 **Tip:** If you already have a repl, go to the [next section](#hosting).
 
 1. Go to [replit.com/~](https://replit.com/~)
 2. Create a *repl* by clicking the ➕ sign under the 'Create' section:\
-![](https://user-images.githubusercontent.com/69215413/146983219-89cfbaae-c309-4f20-8ef1-b53143c8284d.png)\
+![](https://user-images.githubusercontent.com/69215413/146983219-89cfbaae-c309-4f20-8ef1-b53143c8284d.png)
 3. Select Node.JS as your template *(or HTML, CSS, JS for a site)*:\
-![](https://user-images.githubusercontent.com/69215413/146983331-73da02f0-b3de-4481-9dec-5693f461c9a7.png)\
-> For Node.JS 16+, fork [this repl](https://replit.com/@piemadd/Node-1661) instead of creating a new one!\
+![](https://user-images.githubusercontent.com/69215413/146983331-73da02f0-b3de-4481-9dec-5693f461c9a7.png)
+> For Node.JS 16+, fork [this repl](https://replit.com/@piemadd/Node-1661) instead of creating a new one!
 4. Give it a name, or stick with the one that is auto generated:\
-![](https://user-images.githubusercontent.com/69215413/146983436-9a3fc61d-9ce5-4d8e-bfac-007afb001f43.png)\
+![](https://user-images.githubusercontent.com/69215413/146983436-9a3fc61d-9ce5-4d8e-bfac-007afb001f43.png)
 5. Click "Create Repl":\
 ![](https://user-images.githubusercontent.com/69215413/146983645-2bb54241-6ba9-49d1-a2ad-1c84e63f96ec.png)
 
@@ -54,13 +66,14 @@ monitor.on('down', (res) => console.log(`${res.website} it has died - ${res.stat
 monitor.on('stop', (website) => console.log(`${website} has stopped.`) );
 monitor.on('error', (error) => console.log(error));
 ```
+> 💡 **Tip:** If you already have code in your `index.js` file, just put this code at the bottom of the code, or where ever you feel it looks best.
 
 ### server.js
 1. Create a file called `server.js`:
 ![](https://user-images.githubusercontent.com/69215413/146991492-2b9714dc-23d7-4d98-a932-57283a91b9cd.png)
 ![](https://user-images.githubusercontent.com/69215413/146991520-d795f4d9-21ab-4014-a685-5007fb44d96d.png)
 
-2. Paste in this code:
+2. Paste-in this code:
 ```js
 const express = require('express');
 const server = express();
@@ -76,14 +89,14 @@ module.exports = () => {
     return true;
 }
 ```
-> 💡 See where I put 4000, it is recommended you change that if you are using multiple repls. For example, you can do 1000, 2000, 3000, or whatever else. This is just a port.
+> 💡 **Tip:** See where I put 4000, it is recommended you change that if you are using multiple repls. For example, you can do 1000, 2000, 3000, or whatever else. This is just a port.
 
 ### Run It
 Click the 'Run' button:
 ![](https://user-images.githubusercontent.com/69215413/146987397-637e9f1a-2987-459b-86ef-bc651ca525be.png)
 
 ### UptimeRobot
-We will be using UptimeRobot as the monitoring system.
+We will be using [UptimeRobot](https://uptimerobot.com/) as the monitoring system.
 
 1. Copy the URL of the website that shows when you run the repl. If you are on mobile, this will be on the "Output" tab; on Desktop, you'll see it in the upper right corner of your screen:\
 ![](https://user-images.githubusercontent.com/69215413/146987775-56f77514-c7c1-4a67-8d81-7de17200d99b.png)\
