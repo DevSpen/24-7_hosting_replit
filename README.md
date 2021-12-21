@@ -5,6 +5,9 @@ How do I get free 24/7 hosting with replit? Here's how.
 ![](https://user-images.githubusercontent.com/69215413/146993173-a8bede48-c001-4028-bf77-626113d599a6.png)
 
 > :warning: **Warning:** This only works for `Node.JS` or `HTML, CSS, JS` repls.
+
+> 💡 **Tip:** repl.it is great for testing out projects before lauching to the masses.
+
 ## Index
 - [Creating a Repl](#creating-a-repl)
 - [Hosting](#hosting)
