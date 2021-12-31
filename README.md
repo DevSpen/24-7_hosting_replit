@@ -35,7 +35,7 @@ Assuming you've already [created a replit account](https://replit.com/signup), l
 
 ## Hosting
 ### Install Packages
-1. Run `npm init` in the Shell
+1. Run `npm init -y` in the Shell
 2. Run this in the Shell to install the dependencies:
 ```sh-session
 npm install express ping-monitor
