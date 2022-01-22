@@ -92,7 +92,7 @@ module.exports = () => {
     return true;
 }
 ```
-> 💡 **Tip:** See where I put 4000, it is recommended you change that if you are using multiple repls. For example, you can do 1000, 2000, 3000, or whatever else. This is just a port.
+> 💡 **Tip:** See where I put `4000`, it is recommended you change that if you are using multiple repls. For example, you can do `1000`, `2000`, `3000`, or whatever else. This is just a port.
 
 ### Run It
 Click the 'Run' button:\
